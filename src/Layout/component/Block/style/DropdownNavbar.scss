@@ -17,16 +17,22 @@
       display: block;
     }
   }
-
   .nav-form
   {
     display: flex;
     justify-content: space-between;
+    @media (max-width: 300px) {
+      display: block;
+    }
     .nav-search
     {
       border: 1px solid #ff5d22;
       border-radius: 5px;
       flex: .5;
+      @media (max-width: 300px) {
+        flex: 1;
+        margin-bottom: 20px;
+      }
       input{
         padding: 10px;
         width: 90%;
@@ -44,6 +50,9 @@
     {
       flex: .48;
       margin-top: 10px;
+      @media (max-width: 300px) {
+        flex: 1;
+      }
     }
   }
 }

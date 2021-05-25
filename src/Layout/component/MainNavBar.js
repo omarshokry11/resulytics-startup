@@ -24,9 +24,11 @@ export default function MainNavBar(){
                 <Image src="/img/logo.png" />
             </div>
             <div className="navbar-dropdown" onClick={() => setClick(!click)}>
-                <div> </div>
-                <div> </div>
-                <div> </div>
+                {click ? <i className="fas fa-times"> </i> : <>
+                    <div> </div>
+                    <div> </div>
+                    <div> </div>
+                </>}
             </div>
             {click ?  <DropdownNavbar linkes={linkes} /> : null}
             <div className="navbar-link">
