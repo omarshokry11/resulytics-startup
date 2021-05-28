@@ -1,7 +1,7 @@
 import React from "react";
 
 
-export default function MainHome(){
+export default function PageHome(){
     return(
         <div>Home</div>
     )

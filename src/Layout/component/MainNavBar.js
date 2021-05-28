@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import {Image} from "react-bootstrap";
-import {NavLink} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 import DropdownNavbar from "./Block/DropdownNavbar";
 
 import "./style/MainNavBar.scss";
@@ -45,7 +45,7 @@ export default function MainNavBar(){
                     <i className="fas fa-search"> </i>
                 </div>
                <div className="nav-btn">
-                   <a href="/" className="link-btn"><i className="fas fa-arrow-right"> </i>Get Started</a>
+                   <Link to="/contact" className="link-btn"><i className="fas fa-arrow-right"> </i>Get Started</Link>
                </div>
             </div>
         </div>
