@@ -4,7 +4,7 @@ import {Image} from "react-bootstrap";
 
 import "./style/PageContact.scss";
 
-export default function PageContact() {
+export default function Contact() {
     return(
         <div className="main-contact-container">
             <div className="cover">

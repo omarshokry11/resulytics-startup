@@ -1,7 +1,7 @@
 import React from "react";
 import MainNavBar from "./Layout/component/MainNavBar";
-import PageHome from "./Layout/pages/PageHome";
-import PageContact from "./Layout/pages/PageContact";
+import Home from "./Layout/pages/Home";
+import Contact from "./Layout/pages/Contact";
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 
@@ -11,8 +11,8 @@ export default function App() {
         <BrowserRouter>
             <MainNavBar />
             <Switch>
-                <Route path="/" exact component={PageHome}/>
-                <Route path="/contact" exact component={PageContact}/>
+                <Route path="/" exact component={Home}/>
+                <Route path="/contact" exact component={Contact}/>
             </Switch>
         </BrowserRouter>
     </div>
