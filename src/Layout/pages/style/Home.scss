@@ -1,0 +1,168 @@
+.main-home-content-container
+{
+  background-image: url("./img/main-banner-bg4-97751efdd9ecfb226a5a3e61614c48a8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 950px;
+  .item-text
+  {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    @media (max-width: 768px) {
+     width: 50%;
+    }
+    .text-details
+    {
+      position: absolute;
+      top: 320px;
+      left: 20%;
+      animation: animateText .6s;
+      width: 100%;
+      @media (max-width: 768px) {
+       left: 0;
+        top: 170px;
+        animation: animateText-md .6s;
+        text-align: center;
+      }
+      @media (max-width: 450px) {
+        left: 45%;
+      }
+      @media (max-width: 400px) {
+        left: 0;
+      }
+      h1{
+        width: 80%;
+        font-size: 58px;
+        font-weight: 700;
+        color: #221638;
+        margin: 0;
+        @media (max-width: 1024px) {
+          width: 100%;
+          font-size: 45px;
+        }
+        @media (max-width: 768px) {
+          text-align: center;
+          font-size: 35px;
+        }
+        @media (max-width: 600px) {
+          font-size: 30px;
+        }
+      }
+      p{
+        width: 70%;
+        margin: 25px 0;
+        font-size: 17px;
+        font-weight: 500;
+        color: #8D8DA0;
+        @media (max-width: 1024px) {
+          width: 100%;
+        }
+        @media (max-width: 768px) {
+          text-align: center;
+        }
+        @media (max-width: 600px) {
+          padding: 0 10px;
+          font-size: 15px;
+        }
+      }
+    }
+    .button
+    {
+      position: absolute;
+      top: 650px;
+      left: 19%;
+      width: 100%;
+      animation: animateButton .6s;
+      @media (max-width: 768px) {
+        left: 0;
+        top: 370px;
+        animation: animateButton-md .6s;
+        text-align: center;
+      }
+      @media (max-width: 450px) {
+        left: 45%;
+      }
+      @media (max-width: 400px) {
+        left: 0;
+      }
+      @media (max-width: 330px) {
+        left: 5%;
+        top: 400px;
+      }
+      button{
+        width: 18%;
+        margin-right: 10px;
+        z-index: 10;
+        @media (max-width: 1024px) {
+         width: 25%;
+        }
+        @media (max-width: 768px) {
+          margin: 0 10px;
+        }
+        @media (max-width: 500px) {
+         width: 40%;
+          margin-bottom: 10px;
+        }
+      }
+      .link-btn-1{
+        border: 1px solid #ff5d22;
+        background-color: #FFFFFF;
+        color: #ff5d22;
+        &:hover{
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+  .img-cover
+  {
+    img{
+      margin-top: 150px;
+      width: 930px;
+      animation: animateImage 1s;
+      @media (max-width: 1024px) {
+        width: 620px;
+        margin-top: 500px;
+        animation: animateImage-md 1s;
+      }
+      @media (max-width: 768px) {
+        width: 750px;
+        margin-top: 500px;
+        animation: animateImage-md 1s;
+      }
+      @media (max-width: 400px) {
+        width: 350px;
+        margin-top: 500px;
+        animation: animateImage-md 1s;
+      }
+    }
+  }
+}
+
+@keyframes animateText {
+  0%{left: 10%}
+  100%{left: 20%}
+}
+@keyframes animateText-md {
+  0%{left: 10%}
+  100%{left: 0}
+}
+
+@keyframes animateButton {
+  0%{left: 30%}
+  100%{left: 19%}
+}
+@keyframes animateButton-md {
+  0%{left: 30%}
+  100%{left: 20%}
+}
+
+@keyframes animateImage {
+  0%{margin: 0}
+  100%{margin-top: 150px}
+}
+@keyframes animateImage-md {
+  0%{margin: 400px}
+  100%{margin-top: 500px}
+}
