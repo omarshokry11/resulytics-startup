@@ -24,6 +24,7 @@
         color: #FFFFFF;
       }
       .icon{
+        margin-left: 15px;
         flex: .2;
         background-color: #F6F6F7;
         border-radius: 5px;
@@ -106,6 +107,9 @@
   {
     img{
       width: 100%;
+      @media (max-width: 400px) {
+        width: 90%;
+      }
     }
   }
   .form
@@ -114,6 +118,7 @@
     border: 1px solid #f7f7f7;
     border-radius: 5px;
     box-shadow: 0 0 20px #f7f7f7;
+    width: 100%;
     input{
       background-color: #F5F5F5;
       color: #221638;
@@ -141,9 +146,12 @@
     }
     button
     {
-      width: 32%;
+      width: 35%;
       @media (max-width: 768px) {
-        width: 40%;
+        width: 30%;
+      }
+      @media (max-width: 400px) {
+        width: 50%;
       }
     }
   }
