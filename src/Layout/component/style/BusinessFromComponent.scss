@@ -1,0 +1,106 @@
+@import "../../../style/_variables.scss";
+
+.main-business-from
+{
+  .title-details
+  {
+    h2{
+      font-size: 44px;
+      font-weight: 700;
+      width: 60%;
+      margin: 0 auto 15px;
+      color: $secondColor;
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+      @media (max-width: 500px) {
+        font-size: 30px;
+      }
+    }
+    p{
+      color: #6b6b84;
+      font-size: 17px;
+      width: 50%;
+      margin: 5px auto;
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+      @media (max-width: 500px) {
+        font-size: 15px;
+      }
+    }
+  }
+  .item
+  {
+    margin: 35px 0;
+    @media (max-width: 768px) {
+      text-align: center;
+    }
+    &:hover .icon{
+      background-color: $secondColor;
+    }
+    .icon
+    {
+      padding: 10px;
+      color: #FFFFFF;
+      width: 80px;
+      height: 80px;
+      line-height: 80px;
+      border-radius: 10px;
+      text-align: center;
+      transition: all .6s;
+      margin-bottom: 20px;
+      @media (max-width: 768px) {
+        margin: 10px auto;
+      }
+      i{
+        font-size: 40px;
+      }
+    }
+    .item-details
+    {
+      margin: 10px 0;
+      h3{
+        cursor: pointer;
+        color: $secondColor;
+        transition: all .6s;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 1.8;
+        &:hover{
+          color: $mainColor;
+        }
+      }
+      p{
+        color: #6b6b84;
+        font-size: 17px;
+        line-height: 1.8;
+      }
+      a
+      {
+
+      }
+    }
+  }
+  .item:first-child{
+    margin-top: 80px;
+  }
+  .item-1{
+    margin-top: 60px;
+    .icon{
+      background-color: $mainColor;
+    }
+  }
+  .item-2{
+    margin-top: 40px;
+    .icon{
+      background-color: #01b882;
+    }
+  }
+  .item-3{
+    margin-top: 20px;
+    .icon{
+      background-color: #bb005c;
+    }
+  }
+}
