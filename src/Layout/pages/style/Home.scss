@@ -1,0 +1,16 @@
+.main-home-content-container
+{
+  background-image: url("./img/main-banner-bg4-97751efdd9ecfb226a5a3e61614c48a8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 950px;
+  .cover-home{
+    padding-bottom: 270px;
+    @media (max-width: 768px) {
+      padding-bottom: 150px;
+    }
+    @media (max-width: 500px) {
+      padding-bottom: 250px;
+    }
+  }
+}

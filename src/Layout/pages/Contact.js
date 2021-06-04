@@ -2,7 +2,7 @@ import React from "react";
 import CoverPages from "../component/Block/CoverPages";
 import {Image} from "react-bootstrap";
 
-import "./style/PageContact.scss";
+import "./style/Contact.scss";
 
 export default function Contact() {
     return(
@@ -31,7 +31,7 @@ export default function Contact() {
                             <p>E-mail: hello@rewy.com</p>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-md-12 col-12 item">
+                    <div className="col-lg-4 col-md-12 col-12 item item-1">
                         <div className="icon">
                             <i className="far fa-clock"> </i>
                         </div>
