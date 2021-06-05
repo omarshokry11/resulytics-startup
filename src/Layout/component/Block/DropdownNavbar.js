@@ -5,8 +5,6 @@ import "./style/DropdownNavbar.scss";
 
 export default function DropdownNavbar({ linkes }){
 
-    console.log(linkes);
-
     return(
         <div className="dropdown-navbar">
             <div>
