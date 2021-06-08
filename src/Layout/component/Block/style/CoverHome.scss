@@ -1,3 +1,5 @@
+@import "../../../../style/_variables.scss";
+
 .cover-home-container
 {
   .item-text
@@ -31,7 +33,7 @@
         width: 80%;
         font-size: 58px;
         font-weight: 700;
-        color: #221638;
+        color: $secondColor;
         margin: 0;
         @media (max-width: 1024px) {
           width: 100%;
@@ -102,9 +104,9 @@
         }
       }
       .link-btn-1{
-        border: 1px solid #ff5d22;
+        border: 1px solid $mainColor;
         background-color: #FFFFFF;
-        color: #ff5d22;
+        color: $mainColor;
         &:hover{
           color: #FFFFFF;
         }
