@@ -1,6 +1,7 @@
 import React from "react";
 import CoverPages from "../component/Block/CoverPages";
 import {Image} from "react-bootstrap";
+import MainFooter from "../component/MainFooter";
 
 import "./style/Contact.scss";
 
@@ -58,6 +59,9 @@ export default function Contact() {
                         <button className="link-btn"><i className="fas fa-check"> </i>Send message</button>
                     </div>
                 </div>
+            </div>
+            <div className="footer">
+                <MainFooter />
             </div>
         </div>
     )
