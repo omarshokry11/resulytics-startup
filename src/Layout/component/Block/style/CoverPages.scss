@@ -1,3 +1,5 @@
+@import "../../../../style/_variables.scss";
+
 .main-cover-pages-container
 {
   .cover-page
@@ -26,18 +28,22 @@
       {
         font-size: 17px;
         a{
-          color: #212529;
+          color: $secondColor;
           font-weight: 600;
           text-decoration: none;
+          transition: all .6s;
+          &:hover{
+            color: $mainColor;
+          }
         }
         i{
-          color: #ff5d22;
+          color: $mainColor;
           margin: 0 10px;
           font-size: 14px;
         }
         span{
           font-weight: 600;
-          color: #212529;
+          color: $secondColor;
         }
       }
     }

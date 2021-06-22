@@ -1,0 +1,85 @@
+@import "../../../style/_variables.scss";
+
+.main-service-content-container
+{
+    .service-content
+    {
+        padding-top: 100px;
+        .service-item
+        {
+            padding: 50px 30px;
+            margin-bottom: 30px;
+            border: 1px solid #f5f3f2;
+            border-radius: 5px;
+            transition: all .6s;
+            &:hover{
+                border: 1px solid $mainColor;
+            }
+            &:hover .service-icon{
+                animation: animateIcon .6s;
+            }
+            .service-icon
+            {
+                position: relative;
+                height: 100px;
+                line-height: 100%;
+                i{
+                    position: absolute;
+                    top: 0;
+                    left: 50%;
+                    transform: translate(-50%, 0);
+                    font-size: 50px;
+                }
+            }
+            .service-details
+            {
+                h3{
+                    color: $secondColor;
+                    font-size: 24px;
+                    margin-bottom: 12px;
+                    font-weight: 700;
+                }
+                p{
+                    font-size: 15px;
+                    font-weight: 600;
+                    line-height: 1.8;
+                    color: #6b6b84;
+                }
+                a{
+                    text-decoration: none;
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: $mainColor;
+                    transition: all .5s;
+                    position: relative;
+                    &:hover{
+                        color: $secondColor;
+                    }
+                    &:before{
+                        content: "";
+                        width: 0;
+                        height: 0;
+                        position: absolute;
+                        left: 0;
+                        bottom: 0;
+                        transition: all 1s;
+                    }
+                    &:hover:before{
+                        content: "";
+                        width: 92px;
+                        height: 1px;
+                        background-color: #ff5d22;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes animateIcon {
+    0%{top: 0; transition: all 5s}
+    25%{top: -40px}
+    50%{top: -20px}
+    75%{top: -30px}
+    100%{top: 0}
+}
