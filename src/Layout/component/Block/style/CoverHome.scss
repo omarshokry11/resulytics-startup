@@ -2,6 +2,10 @@
 
 .cover-home-container
 {
+  background-image: url("./img/main-banner-bg4-97751efdd9ecfb226a5a3e61614c48a8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 950px;
   .item-text
   {
     height: 100%;
@@ -24,7 +28,7 @@
         text-align: center;
       }
       @media (max-width: 450px) {
-        left: 45%;
+        left: 20%;
       }
       @media (max-width: 400px) {
         left: 0;
@@ -79,7 +83,7 @@
         text-align: center;
       }
       @media (max-width: 450px) {
-        left: 45%;
+        left: 20%;
       }
       @media (max-width: 400px) {
         left: 0;
@@ -126,6 +130,11 @@
       }
       @media (max-width: 768px) {
         width: 750px;
+        margin-top: 500px;
+        animation: animateImage-md 1s;
+      }
+      @media (max-width: 500px) {
+        width: 550px;
         margin-top: 500px;
         animation: animateImage-md 1s;
       }
