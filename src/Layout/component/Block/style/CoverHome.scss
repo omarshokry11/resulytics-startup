@@ -28,9 +28,6 @@
         text-align: center;
       }
       @media (max-width: 450px) {
-        left: 20%;
-      }
-      @media (max-width: 400px) {
         left: 0;
       }
       h1{
@@ -83,13 +80,9 @@
         text-align: center;
       }
       @media (max-width: 450px) {
-        left: 20%;
-      }
-      @media (max-width: 400px) {
         left: 0;
       }
       @media (max-width: 330px) {
-        left: 5%;
         top: 400px;
       }
       button{
@@ -124,7 +117,7 @@
       width: 930px;
       animation: animateImage 1s;
       @media (max-width: 1024px) {
-        width: 620px;
+        width: 488px;
         margin-top: 500px;
         animation: animateImage-md 1s;
       }
@@ -133,16 +126,23 @@
         margin-top: 500px;
         animation: animateImage-md 1s;
       }
+        @media (max-width: 550px) {
+            width: 530px;
+        }
       @media (max-width: 500px) {
-        width: 550px;
-        margin-top: 500px;
-        animation: animateImage-md 1s;
+          margin-left: 25px;
+          width: 355px;
+          margin-top: 500px;
+          animation: animateImage-md 1s;
       }
       @media (max-width: 400px) {
-        width: 350px;
+        width: 270px;
         margin-top: 500px;
         animation: animateImage-md 1s;
       }
+        @media (max-width: 300px) {
+            width: 240px;
+        }
     }
   }
 }
