@@ -1,0 +1,110 @@
+@import "../../../../style/_variables.scss";
+
+.main-items-container
+{
+    margin: 100px 0;
+    padding: 100px 0;
+    background-color: #fafafb;
+    .item-title
+    {
+        h2{
+            font-weight: 700;
+            font-size: 44px;
+            margin: 0;
+            color: $secondColor;
+        }
+        p{
+            font-weight: 400;
+            font-size: 18px;
+            width: 600px;
+            margin: 15px auto;
+            color: #6b6b84;
+            line-height: 1.5;
+            @media (max-width: 600px) {
+                width: 100%;
+            }
+        }
+    }
+    .item
+    {
+        padding: 50px 10px;
+        display: flex;
+        justify-content: space-between;
+        &:hover .icon-item{
+            background-color: $mainColor;
+            color: #FFFFFF;
+        }
+        .icon-item
+        {
+            flex: .27;
+            color: $mainColor;
+            text-align: center;
+            width: 100%;
+            height: 80px;
+            line-height: 80px;
+            background: #f4f4f4;
+            border-radius: 5px;
+            font-size: 55px;
+            transition: all .6s;
+        }
+        .details-item
+        {
+            flex: .68;
+            color: $secondColor;
+            h3{
+                font-size: 25px;
+                margin-bottom: 10px;
+                cursor: pointer;
+                transition: all .6s;
+                &:hover{
+                    color: $mainColor;
+                }
+            }
+            p{
+                font-size: 16px;
+                font-weight: 400;
+            }
+            a
+            {
+                color: $secondColor;
+                font-size: 18px;
+                font-weight: 500;
+                margin: 10px 0;
+                width: 200px;
+                display: block;
+                text-decoration: none;
+                border-bottom: 1px solid #000;
+                transition: all .6s;
+                &:hover{
+                    color: $mainColor;
+                    border-bottom: 1px solid $mainColor;
+                }
+                i{
+                    margin-left: 5px;
+                    color: $secondColor;
+                }
+            }
+            .link-item{
+                width: 107px;
+                border: none;
+                color: $mainColor;
+                &:hover{
+                    border: none;
+                    color: $secondColor;
+                }
+                i{
+                    margin: 0;
+                }
+            }
+        }
+    }
+    .item-1{
+        margin-top: 60px;
+    }
+    .item-2{
+        margin-top: 40px;
+    }
+    .item-3{
+        margin-top: 20px;
+    }
+}
