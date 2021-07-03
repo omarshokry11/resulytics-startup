@@ -2,6 +2,10 @@
 
 .cover-home-container
 {
+  background-image: url("./img/main-banner-bg4-97751efdd9ecfb226a5a3e61614c48a8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 950px;
   .item-text
   {
     height: 100%;
@@ -24,9 +28,6 @@
         text-align: center;
       }
       @media (max-width: 450px) {
-        left: 45%;
-      }
-      @media (max-width: 400px) {
         left: 0;
       }
       h1{
@@ -79,13 +80,9 @@
         text-align: center;
       }
       @media (max-width: 450px) {
-        left: 45%;
-      }
-      @media (max-width: 400px) {
         left: 0;
       }
       @media (max-width: 330px) {
-        left: 5%;
         top: 400px;
       }
       button{
@@ -120,7 +117,7 @@
       width: 930px;
       animation: animateImage 1s;
       @media (max-width: 1024px) {
-        width: 620px;
+        width: 488px;
         margin-top: 500px;
         animation: animateImage-md 1s;
       }
@@ -129,11 +126,23 @@
         margin-top: 500px;
         animation: animateImage-md 1s;
       }
+        @media (max-width: 550px) {
+            width: 530px;
+        }
+      @media (max-width: 500px) {
+          margin-left: 25px;
+          width: 355px;
+          margin-top: 500px;
+          animation: animateImage-md 1s;
+      }
       @media (max-width: 400px) {
-        width: 350px;
+        width: 270px;
         margin-top: 500px;
         animation: animateImage-md 1s;
       }
+        @media (max-width: 300px) {
+            width: 240px;
+        }
     }
   }
 }

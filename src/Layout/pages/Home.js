@@ -1,6 +1,7 @@
 import React from "react";
 import CoverHome from "../component/Block/CoverHome";
 import BusinessFromComponent from "../component/BusinessFromComponent";
+import Research from "../component/Block/Research";
 
 import "./style/Home.scss";
 
@@ -12,6 +13,7 @@ export default function Home(){
             </div>
             <div className="content-home">
                 <BusinessFromComponent />
+                <Research />
             </div>
         </div>
     )
