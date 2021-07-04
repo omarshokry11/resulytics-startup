@@ -80,15 +80,15 @@
             {
                 background-color: #FAFAFB;
                 padding: 90px 35px 70px;
-                position: relative;
+                transform: skewY(-8deg);
                 .img{
                     position: absolute;
                     top: 0;
                     right: 0;
                     width: 200px;
                 }
-                //transform: rotateZ(80deg);
                 .icon{
+                    transform: skewY(8deg);
                     width: 90px;
                     height: 90px;
                     line-height: 90px;
@@ -118,8 +118,9 @@
                 }
                 .details
                 {
+                    transform: skewY(8deg);
                     h3{
-                        margin: 15px 0;
+                        margin: 30px 0 15px;
                         font-size: 25px;
                         font-weight: 700;
                         cursor: pointer;
