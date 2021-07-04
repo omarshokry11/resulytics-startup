@@ -6,7 +6,7 @@ import MainFooter from "../component/MainFooter";
 import "./style/Services.scss";
 import {Link} from "react-router-dom";
 
-export default function Services(){
+export default function ServiceBlock(){
 
     const itemServices = [
         {id: 1, className: "service-item", icon: "fas fa-rocket", h3: "Startup Applications"},
@@ -20,7 +20,7 @@ export default function Services(){
     return(
         <div className="main-service-content-container">
             <div className="cover">
-                <CoverPages title= "Services" />
+                <CoverPages title= "ServiceBlock" />
             </div>
             <div className="service-content container text-center">
                 <div className="row">
