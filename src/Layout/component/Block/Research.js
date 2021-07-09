@@ -29,8 +29,8 @@ export default function Research() {
                         <div className="details-item">
                             <h3>{item.h3}</h3>
                             <p>{item.paragraph}</p>
-                            <a href="#">{item.link1} <i className={item.iconLink}> </i></a>
-                            <a href="#">{item.link2} <i className={item.iconLink}> </i></a>
+                            <Link to="#">{item.link1} <i className={item.iconLink}> </i></Link>
+                            <Link to="#">{item.link2} <i className={item.iconLink}> </i></Link>
                             <Link to="/" className="link-item"><i className={item.iconLink}> </i> {item.link}</Link>
                         </div>
                     </div>)}

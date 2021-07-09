@@ -10,7 +10,7 @@ export default function MainNavBar(){
     const linkes = [
         {id: 1, linkName: "Home", pathName: "/", activeClassName: "active"},
         {id: 2, linkName: "About US", pathName: "/about", activeClassName: "active"},
-        {id: 3, linkName: "Services", pathName: "/service",  activeClassName: "active"},
+        {id: 3, linkName: "ServiceBlock", pathName: "/service",  activeClassName: "active"},
         {id: 4, linkName: "Case Studies", pathName: "/studies",  activeClassName: "active"},
         {id: 5, linkName: "Pages", pathName: "/page",  activeClassName: "active"},
         {id: 6, linkName: "Blog", pathName: "/blog",  activeClassName: "active"},
