@@ -1,0 +1,82 @@
+@import "../../../../style/_variables.scss";
+
+.main-our-team-container
+{
+    padding: 100px 0;
+    position: relative;
+    .cover{
+        position: absolute;
+        left: 0;
+        width: 500px;
+        animation: animate 20s linear infinite;
+        @media (max-width: 768px){
+            display: none;
+        }
+    }
+    .team
+    {
+        img{
+            margin: 15px 0;
+            width: 250px;
+            @media (max-width: 768px){
+               width: 300px;
+                margin: 15px auto;
+            }
+            @media (max-width: 700px){
+                width: 100%;
+            }
+        }
+        .team-2{
+            margin-left: -50px;
+            @media (max-width: 768px){
+                display: block;
+                margin: 15px auto;
+            }
+        }
+        .team-3{
+            margin-left: 25px;
+            margin-bottom: -350px;
+            @media (max-width: 768px){
+                margin-bottom: 18px;
+            }
+            @media (max-width: 700px){
+                margin-left: 0;
+            }
+        }
+    }
+    .details
+    {
+        img{
+            animation: scales 40s infinite;
+            margin-right: 15px;
+        }
+        span{
+            color: $mainColor;
+            font-size: 15px;
+            font-weight: 700;
+        }
+        h2{
+            margin-top: 20px;
+            font-size: 44px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        p{
+            color: #6b6b84;
+            font-size: 17px;
+            font-weight: 600;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+        @media (max-width: 768px){
+            text-align: center;
+            margin-top: 25px;
+        }
+    }
+}
+
+@keyframes animate {
+    0%{bottom: 100px}
+    50%{bottom: 270px}
+    100%{bottom: 100px}
+}

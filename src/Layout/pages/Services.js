@@ -1,10 +1,9 @@
 import React from "react";
 import CoverPages from "../component/Block/CoverPages";
 import CoverService from "../component/Block/CoverService";
-import MainFooter from "../component/MainFooter";
+import {Link} from "react-router-dom";
 
 import "./style/Services.scss";
-import {Link} from "react-router-dom";
 
 export default function ServiceBlock(){
 
@@ -40,9 +39,6 @@ export default function ServiceBlock(){
             </div>
             <div className="cover-service">
                 <CoverService />
-            </div>
-            <div className="footer">
-                <MainFooter />
             </div>
         </div>
     )

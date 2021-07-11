@@ -42,7 +42,7 @@ export default function ServiceBlock() {
             <div className="main-service-container">
                 <div className="container">
                     <div className="row">
-                        <div className="col-12 text-center service-title">
+                        <div className="col-12 text-center title">
                             <h2>Services We Can Help You With</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
                         </div>
