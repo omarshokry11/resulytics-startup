@@ -6,7 +6,9 @@ import "./style/OurTeam.scss";
 export default function OurTeam() {
     return(
         <div className="main-our-team-container">
-            <Image src="/img/vector-shape4-3f535f93904f867f76fb0586dfc899f3.png" className="cover" />
+            <Image src="/img/vector-shape4-3f535f93904f867f76fb0586dfc899f3.png" className="cover-1" />
+            <Image src="/img/vector-shape1-c3bae2923d94465d5ea11e8b7b7e4491.png" className="cover-2" />
+            <Image src="/img/map-shape1-4b98bca3bcf9f47dc8907ab2fffd3922.png" className="cover-3" />
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 col-12">

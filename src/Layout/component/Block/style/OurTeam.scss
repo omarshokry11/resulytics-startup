@@ -3,12 +3,33 @@
 .main-our-team-container
 {
     padding: 100px 0;
+    margin-bottom: 25px;
     position: relative;
-    .cover{
+    .cover-1{
         position: absolute;
         left: 0;
         width: 500px;
         animation: animate 20s linear infinite;
+        @media (max-width: 768px){
+            display: none;
+        }
+    }
+    .cover-2{
+        position: absolute;
+        left: 350px;
+        bottom: 20px;
+        width: 400px;
+        animation: scales 100s linear infinite;
+        @media (max-width: 768px){
+            display: none;
+        }
+    }
+    .cover-3{
+        position: absolute;
+        left: 500px;
+        top: 100px;
+        width: 350px;
+        animation: scales-1 300s infinite;
         @media (max-width: 768px){
             display: none;
         }
