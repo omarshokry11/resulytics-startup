@@ -1,0 +1,90 @@
+@import "../../../../style/_variables.scss";
+
+.main-valuable-insights-container
+{
+    padding: 100px 0;
+    .cover
+    {
+        position: relative;
+        img{
+            position: absolute;
+            width: 600px;
+            top: 150px;
+            @media (max-width: 768px) {
+                display: none;
+            }
+        }
+        .cover-1{
+            left: -100px;
+            animation: scales 400s infinite;
+        }
+        .cover-2{
+            right: -100px;
+            animation: scales-1 400s infinite;
+        }
+    }
+    .blog-item
+    {
+        border-radius: 5px;
+        background-color: #FFFBF5;
+        width: 100%;
+        transition: all .6s;
+        margin-bottom: 25px;
+        &:hover{
+            margin-top: -10px;
+            box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.09);
+        }
+        img{
+            width: 100%;
+            cursor: pointer;
+        }
+        .blog-item-details
+        {
+            padding: 25px;
+            div{
+                display: inline-block;
+                width: 50%;
+                color: #6b6b84;
+            }
+            .img
+            {
+                img{
+                    margin-right: 10px;
+                    width: 35px;
+                    height: 35px;
+                    border-radius: 50%;
+                }
+                span{
+                    font-size: 15px;
+                    font-weight: 500;
+                }
+            }
+            .history
+            {
+                i{
+                    margin-right: 10px;
+                    color: $mainColor;
+                }
+                text-align: right;
+            }
+        }
+        h3{
+            margin-top: 20px;
+            font-size: 23px;
+            font-weight: 700;
+            line-height: 1.3;
+            transition: all .6s;
+            cursor: pointer;
+            @media (max-width: 768px) {
+                font-size: 20px;
+            }
+            &:hover{
+                color: $mainColor;
+            }
+        }
+    }
+    .blog-item-3{
+        width: 320px;
+        margin: 0 auto;
+    }
+}

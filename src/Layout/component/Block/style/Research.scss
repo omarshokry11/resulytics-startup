@@ -4,26 +4,6 @@
 {
     padding: 100px 0;
     background-color: #fafafb;
-    .item-title
-    {
-        h2{
-            font-weight: 700;
-            font-size: 44px;
-            margin: 0;
-            color: $secondColor;
-        }
-        p{
-            font-weight: 400;
-            font-size: 18px;
-            width: 600px;
-            margin: 15px auto;
-            color: #6b6b84;
-            line-height: 1.5;
-            @media (max-width: 600px) {
-                width: 100%;
-            }
-        }
-    }
     .item
     {
         padding: 50px 10px;

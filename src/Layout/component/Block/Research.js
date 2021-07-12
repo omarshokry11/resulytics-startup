@@ -18,7 +18,7 @@ export default function Research() {
         <div className="main-items-container">
             <div className="container">
                 <div className="row">
-                    <div className="col-12 text-center item-title">
+                    <div className="col-12 text-center title">
                         <h2>What We Do</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
                     </div>

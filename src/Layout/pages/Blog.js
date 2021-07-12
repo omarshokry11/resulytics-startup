@@ -1,7 +1,6 @@
 import React from "react";
 import CoverPages from "../component/Block/CoverPages";
 import {Image} from "react-bootstrap";
-import MainFooter from "../component/MainFooter";
 
 import "./style/Blog.scss";
 
@@ -48,9 +47,6 @@ export default function Blog() {
                         <span> <i className="fas fa-angle-double-right"> </i> </span>
                     </div>
                 </div>
-            </div>
-            <div className="footer">
-                <MainFooter />
             </div>
         </div>
     )
