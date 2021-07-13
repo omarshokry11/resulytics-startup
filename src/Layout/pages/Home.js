@@ -6,7 +6,7 @@ import ServiceBlock from "../component/Block/serviceBlock";
 import CarouselAlice from "../component/CarouselAlice";
 import Industries from "../component/Block/Industries";
 import OurTeam from "../component/Block/OurTeam";
-import Carousel from "../component/Carousel";
+import CarouselItem from "../component/Carousel";
 import ValuableInsights from "../component/Block/ValuableInsights";
 import CoverService from "../component/Block/CoverService";
 
@@ -25,7 +25,7 @@ export default function Home(){
                 <CarouselAlice />
                 <Industries />
                 <OurTeam />
-                <Carousel />
+                <CarouselItem />
                 <ValuableInsights />
                 <CoverService />
             </div>
