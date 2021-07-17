@@ -31,7 +31,7 @@ export default function MainFooter(){
                         <h3>Explore</h3>
                         <div className="link">
                             <Link to="/">Home</Link>
-                            <Link to="/about">About</Link>
+                            <Link to="/aboutUS">About</Link>
                             <Link to="/studies">Case Studies</Link>
                             <Link to="/blog">Our Blog</Link>
                             <Link to="/contact">Contact</Link>
