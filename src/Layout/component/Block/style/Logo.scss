@@ -1,0 +1,14 @@
+@import "../../../../style/_variables.scss";
+
+.logo
+{
+    img{
+        animation: scales 40s infinite;
+        margin-right: 5px;
+    }
+    span{
+        color: $mainColor;
+        font-size: 17px;
+        font-weight: 600;
+    }
+}
