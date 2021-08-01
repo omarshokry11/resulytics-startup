@@ -5,6 +5,7 @@ import OurHistory from "../component/OurHistory";
 import PeopleLoveUs from "../component/Block/PeopleLoveUs";
 import DataScience from "../component/DataScience";
 import TeamMembers from "../component/TeamMembers";
+import OurClients from "../component/OurClients";
 
 import "./style/AboutUs.scss";
 
@@ -20,6 +21,7 @@ export default function AboutUS() {
                 <PeopleLoveUs />
                 <DataScience />
                 <TeamMembers />
+                <OurClients />
             </div>
         </div>
     )
