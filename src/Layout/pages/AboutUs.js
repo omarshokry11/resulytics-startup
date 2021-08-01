@@ -3,6 +3,8 @@ import CoverPages from "../component/Block/CoverPages";
 import HeaderAboutPage from "../component/HeaderAboutPage";
 import OurHistory from "../component/OurHistory";
 import PeopleLoveUs from "../component/Block/PeopleLoveUs";
+import DataScience from "../component/DataScience";
+import TeamMembers from "../component/TeamMembers";
 
 import "./style/AboutUs.scss";
 
@@ -16,6 +18,8 @@ export default function AboutUS() {
                 <HeaderAboutPage />
                 <OurHistory />
                 <PeopleLoveUs />
+                <DataScience />
+                <TeamMembers />
             </div>
         </div>
     )
