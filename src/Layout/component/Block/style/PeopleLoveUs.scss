@@ -1,0 +1,130 @@
+@import "../../../../style/_variables.scss";
+
+.main-people-love-us
+{
+    padding: 100px 0;
+    .items
+    {
+        border-left: 1px solid $mainColor;
+        position: relative;
+        .icon{
+            z-index: 10;
+            color: $mainColor;
+            position: absolute;
+        }
+        .icon-1{
+            left: -7px;
+            animation: icon-1 1s infinite;
+        }
+        .icon-2{
+            left: -7px;
+            animation: icon-2 1s infinite;
+        }
+        .item
+        {
+            padding-left: 50px;
+            position: relative;
+            @media (max-width: 400px) {
+                padding-left: 40px;
+            }
+            .number{
+                position: absolute;
+                left: -35px;
+                display: inline-block;
+                width: 65px;
+                height: 65px;
+                line-height: 65px;
+                text-align: center;
+                font-size: 30px;
+                font-weight: 800;
+                font-style: italic;
+                color: $mainColor;
+                border-radius: 50%;
+                background-color: #FFFFFF;
+                box-shadow: 0 0 0 7px #edf1fe;
+                @media (max-width: 400px) {
+                    left: -15px;
+                    width: 35px;
+                    height: 35px;
+                    line-height: 35px;
+                }
+            }
+            .number-1{
+                top: 0;
+            }
+            .number-2{
+                top: 10px;
+            }
+            .number-3{
+                top: 20px;
+            }
+            h3{
+                font-size: 24px;
+                font-weight: 700;
+                margin-bottom: 10px;
+            }
+            p{
+                font-size: 17px;
+                font-weight: 500;
+                line-height: 1.5;
+                color: #6b6b84;
+                width: 90%;
+                @media (max-width: 768px) {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .cover
+    {
+        img{
+            width: 100%;
+        }
+    }
+}
+
+@keyframes icon-1 {
+    0%{
+        top: 80px;
+        opacity: 1;
+    }
+    25%{
+        top: 82px;
+        opacity: .5;
+    }
+    50%{
+        top: 85px;
+        opacity: 0;
+    }
+    75%{
+        top: 82px;
+        opacity: .75;
+    }
+    100%{
+        top: 80px;
+        opacity: 1;
+    }
+}
+
+@keyframes icon-2 {
+    0%{
+        bottom: 82px;
+        opacity: 1;
+    }
+    25%{
+        bottom: 80px;
+        opacity: .5;
+    }
+    50%{
+        bottom: 82px;
+        opacity: .25;
+    }
+    75%{
+        bottom: 80px;
+        opacity: .5;
+    }
+    100%{
+        bottom: 82px;
+        opacity: 0;
+    }
+}

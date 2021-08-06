@@ -1,0 +1,49 @@
+@import "../../../style/_variables.scss";
+
+.main-our-clients-container
+{
+    padding: 100px 0;
+    background-color: #f1f8fb;
+    .main-carousel-alice-container
+    {
+        .title {
+            h2{
+                color: $secondColor;
+                margin: 10px 0;
+            }
+            p{
+                color: #6b6b84;
+            }
+        }
+    }
+    .btn-service{
+        background: none;
+        color: $mainColor;
+        width: 21%;
+        margin-bottom: 100px;
+        @media (max-width: 768px) {
+            width: 25%;
+        }
+        @media (max-width: 600px) {
+            width: 50%;
+        }
+        @media (max-width: 350px) {
+            width: 65%;
+        }
+        &:before{
+            content: "";
+            position: absolute;
+            background-color: rgba(255, 93, 34, 1);
+            color: #FFFFFF;
+        }
+    }
+    .img{
+        img{
+            width: 70%;
+            margin-bottom: 20px;
+            @media (max-width: 650px) {
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+@import "../../../style/_variables.scss";
+
+.main-team-members-container
+{
+    padding: 100px 0;
+    .item
+    {
+        .cover
+        {
+            position: relative;
+            width: 100%;
+            background-image: url("./img/shape1-7448a6af6c8bf8101a3fcac3bc4305fc.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 5px 5px 0 0;
+        }
+        .details
+        {
+            padding: 20px 0;
+            border-radius: 0 0 5px 5px;
+            h3{
+                font-size: 25px;
+                margin-bottom: 5px;
+            }
+            .social
+            {
+                list-style: none;
+                li
+                {
+                    margin: 0 2px;
+                    display: inline-block;
+                    i{
+                        background-color: #FFF;
+                        color: #6b6b84;
+                        border-radius: 50%;
+                        border: 1px solid #ece4da;
+                        width: 34px;
+                        height: 34px;
+                        line-height: 34px;
+                        text-align: center;
+                        transition: all .5s;
+                        cursor: pointer;
+                        &:hover{
+                            background-color: $mainColor;
+                            border: none;
+                            color: #FFF;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

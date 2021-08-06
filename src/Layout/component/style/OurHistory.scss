@@ -1,0 +1,71 @@
+@import "../../../style/_variables.scss";
+
+.main-our-history-content
+{
+    padding: 100px 0;
+    background-color: #fafafb;
+    margin-bottom: 50px;
+    .title
+    {
+        img{
+            animation: scales 40s infinite;
+            margin-right: 5px;
+        }
+        span{
+            color: $mainColor;
+            font-size: 17px;
+            font-weight: 600;
+        }
+        h2{
+            margin: 10px 0;
+        }
+    }
+    .item
+    {
+        background-color: #FFFFFF;
+        margin-bottom: 30px;
+        padding: 30px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        @media  (max-width: 768px){
+            display: block;
+        }
+        .item-details
+        {
+            flex: .65;
+            padding: 0 5px 0 15px;
+            margin-top: 85px;
+            @media  (max-width: 768px){
+                flex: 1;
+                margin-bottom: 15px;
+                padding: 0;
+            }
+            h3{
+                font-size: 25px;
+                margin-bottom: 15px;
+                font-weight: 700;
+            }
+            p{
+                color: #6b6b84;
+                line-height: 1.8;
+                font-size: 17px;
+                font-weight: 600;
+                width: 80%;
+                @media  (max-width: 768px){
+                    width: 100%;
+                }
+            }
+        }
+        .item-img
+        {
+            flex: .35;
+            @media  (max-width: 768px){
+                flex: 1;
+            }
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

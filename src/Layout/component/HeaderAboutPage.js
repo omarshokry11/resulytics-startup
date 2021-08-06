@@ -2,6 +2,7 @@ import React from "react";
 import {Image} from "react-bootstrap";
 
 import "./style/HeaderAboutPage.scss";
+import Logo from "./Block/Logo";
 
 export default function HeaderAboutPage() {
 
@@ -48,8 +49,7 @@ export default function HeaderAboutPage() {
                     </div>
                     <div className="col-lg-6 col-12 details">
                         <div className="logo">
-                            <Image src="/img/logo2.png" />
-                            <span>ABOUT US</span>
+                            <Logo text="ABOUT US" />
                         </div>
                         <div className="title">
                             <h2>Drive Digital Revolution Through Data Science</h2>

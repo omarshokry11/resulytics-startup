@@ -2,6 +2,7 @@ import React from "react";
 import {Image} from "react-bootstrap";
 
 import "./style/OurTeam.scss";
+import Logo from "./Logo";
 
 export default function OurTeam() {
     return(
@@ -20,8 +21,7 @@ export default function OurTeam() {
                     </div>
                     <div className="col-lg-6 col-12">
                         <div className="details">
-                            <Image src="/img/logo2.png" />
-                            <span>OUR TEAM</span>
+                            <Logo text="OUR TEAM" />
                             <h2>Meet Our Data Scientist Preparing For Your Business Success</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>

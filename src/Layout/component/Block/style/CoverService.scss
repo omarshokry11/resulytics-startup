@@ -40,52 +40,5 @@
             margin-bottom: 20px;
             font-weight: 500;
         }
-        button{
-            width: 30%;
-            border-radius: 5px;
-            color: #FFF;
-            background-color: $mainColor;
-            outline: none;
-            border: 1px solid $mainColor;
-            padding: 12px 20px;
-            font-size: 16px;
-            font-weight: 500;
-            transition: all .6s;
-            position: relative;
-            @media (max-width: 1024px) {
-                padding: 12px 5px;
-                font-size: 13px;
-            }
-            @media (max-width: 400px) {
-                width: 40%;
-            }
-            &:hover{
-                color: #FFF;
-                text-decoration: none;
-                background: none;
-                border: 1px solid rgba(255, 255, 255, 0.36);
-            }
-            &:before{
-                content: "";
-                position: absolute;
-                left: 0;
-                top: 0;
-                width: 0;
-                height: 100%;
-                background-color: rgba(255, 255, 255, 0.36);
-                color: $secondColor;
-                border-radius: 5px;
-                transition: all 1s;
-                z-index: 1;
-            }
-            &:hover:before{
-                content: "";
-                width: 100%;
-                border-radius: 5px;
-            }
-            i{
-                margin-right: 5px;
-            }
-        }
     }
 }
