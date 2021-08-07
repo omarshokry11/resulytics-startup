@@ -34,7 +34,7 @@ export default function CarouselAliceItem(props) {
                 >
                     {props.items.map((item) => <div className="items" key={item.id}>
                         <div className="item">
-                            <Image src={item.img} />
+                            <Image src={item.img} className="user-img" />
                             <p>{item.p}</p>
                             <h3>{item.name}</h3>
                             <span>{item.job}</span>
