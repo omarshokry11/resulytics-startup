@@ -1,1 +1,76 @@
 @import "../../../style/_variables.scss";
+
+.main-case-studies-content
+{
+    .case-studies-container
+    {
+        padding: 100px 0;
+        .case-studies-item
+        {
+            &:hover .item-cover .color{
+               opacity: 1;
+            }
+            &:hover .item-cover img{
+                transform: scale(1.1);
+            }
+            .item-cover
+            {
+                position: relative;
+                overflow: hidden;
+                .color
+                {
+                    position: absolute;
+                    left: 10px;
+                    top: 10px;
+                    width: 96%;
+                    height: 95%;
+                    background-color: $mainColor;
+                    border-radius: 5px;
+                    z-index: 1;
+                    opacity: 0;
+                    transition: all .4s;
+                    i{
+                        font-size: 40px;
+                        color: #FFFFFF;
+                        position: absolute;
+                        left: 55%;
+                        top: 55%;
+                        transition: all .6s;
+                        transform: translate(-50px, -50px);
+                        cursor: pointer;
+                        &:hover{
+                            color: $secondColor;
+                        }
+                    }
+                }
+                img{
+                    width: 100%;
+                    border-radius: 5px 5px 0 0;
+                    transition: all .6s;
+                }
+            }
+            .item-details
+            {
+                padding: 25px 0;
+                background-color: #FAFAFB;
+                text-align: center;
+                h3{
+                    color: $secondColor;
+                    font-size: 24px;
+                    font-weight: 700;
+                    margin-bottom: 8px;
+                    cursor: pointer;
+                    transition: all .6s;
+                    &:hover{
+                        color: $mainColor;
+                    }
+                }
+                p{
+                    color: $mainColor;
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

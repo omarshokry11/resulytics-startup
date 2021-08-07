@@ -1,5 +1,9 @@
 @import "./_variables";
 
+.margin-bottom{
+  margin-bottom: 30px;
+}
+
 .main-app-container{
    @media (max-width: 1024px) {
      padding-bottom: 520px;
