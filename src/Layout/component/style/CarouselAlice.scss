@@ -27,7 +27,7 @@
                 margin-top: 40px;
                 border-radius: 5px;
                 background-color: #FFFFFF;
-                img{
+                .user-img{
                     position: absolute;
                     top: -40px;
                     left: 0;
@@ -44,14 +44,32 @@
                     line-height: 1.8;
                     font-weight: 450;
                 }
-                h3{
-                    font-size: 20px;
-                    margin-bottom: 5px;
-                }
-                span{
-                    color: #6b6b84;
-                    font-size: 17px;
-                    font-weight: 400;
+                .item-user
+                {
+                    display: flex;
+                    justify-content: space-between;
+                    .img-user
+                    {
+                        flex: .2;
+                        z-index: 10;
+                        .user{
+                            width: 100%;
+                            border-radius: 50%;
+                        }
+                    }
+                    .details
+                    {
+                        flex: .8;
+                        h3{
+                            font-size: 20px;
+                            margin-bottom: 5px;
+                        }
+                        span{
+                            color: #6b6b84;
+                            font-size: 17px;
+                            font-weight: 400;
+                        }
+                    }
                 }
             }
         }

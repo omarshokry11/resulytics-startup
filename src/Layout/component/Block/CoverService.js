@@ -16,7 +16,7 @@ export default function CoverService(){
                     <div className="col-lg-6 col-12 item-details">
                         <h2>We Like to Start Your Project With Us</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                        <button className="btn-service"><i className="fas fa-calendar-alt"> </i> Get Started</button>
+                        <button className="link-btn"><i className="fas fa-calendar-alt"> </i> Get Started</button>
                     </div>
                 </div>
             </div>

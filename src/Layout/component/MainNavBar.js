@@ -11,7 +11,7 @@ export default function MainNavBar(){
         {id: 1, linkName: "Home", pathName: "/", activeClassName: "active"},
         {id: 2, linkName: "About US", pathName: "/aboutUs", activeClassName: "active"},
         {id: 3, linkName: "Service", pathName: "/service",  activeClassName: "active"},
-        {id: 4, linkName: "Case Studies", pathName: "/studies",  activeClassName: "active"},
+        {id: 4, linkName: "Case Studies", pathName: "/caseStudies",  activeClassName: "active"},
         {id: 5, linkName: "Pages", pathName: "/page",  activeClassName: "active"},
         {id: 6, linkName: "Blog", pathName: "/blog",  activeClassName: "active"},
     ];
