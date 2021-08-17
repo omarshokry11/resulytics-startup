@@ -5,6 +5,7 @@ import AboutUS from "./Layout/pages/AboutUs";
 import Contact from "./Layout/pages/Contact";
 import Services from "./Layout/pages/Services";
 import CaseStudies from "./Layout/pages/CaseStudies";
+import Courses from "./Layout/pages/Courses";
 import Blog from "./Layout/pages/Blog";
 import MainFooter from "./Layout/component/MainFooter";
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
@@ -21,6 +22,7 @@ export default function App() {
                 <Route path="/contact" exact component={Contact}/>
                 <Route path="/service" exact component={Services}/>
                 <Route path="/caseStudies" exact component={CaseStudies}/>
+                <Route path="/courses" exact component={Courses}/>
                 <Route path="/blog" exact component={Blog}/>
             </Switch>
             <MainFooter />
