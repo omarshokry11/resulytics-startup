@@ -6,9 +6,16 @@
     {
         h2{
             color: #FFFFFF;
+            @media (max-width: 300px) {
+                font-size: 15px;
+            }
         }
         p{
             color: #FFFFFF;
+            @media (max-width: 300px) {
+                font-size: 10px;
+            }
+
         }
     }
     .products-carousel-section {
