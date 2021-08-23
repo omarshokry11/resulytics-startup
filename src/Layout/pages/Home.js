@@ -1,4 +1,5 @@
 import React from "react";
+import {Image} from "react-bootstrap";
 import CoverHome from "../component/Block/CoverHome";
 import BusinessFromComponent from "../component/BusinessFromComponent";
 import Research from "../component/Block/Research";
@@ -11,7 +12,6 @@ import ValuableInsights from "../component/Block/ValuableInsights";
 import CoverService from "../component/Block/CoverService";
 
 import "./style/Home.scss";
-import {Image} from "react-bootstrap";
 
 export default function Home(){
 
