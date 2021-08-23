@@ -76,14 +76,16 @@
                 {
                     margin-bottom: 15px;
                     img{
-                        width: 40px;
+                        width: 50px;
                         border-radius: 50%;
                         margin-right: 10px;
                     }
-                    span{
+                    .user-name{
+                        display: inline-block;
                         color: $mainColor;
-                        font-size: 15px;
+                        font-size: 17px;
                         font-weight: 600;
+                        margin: 10px;
                     }
                 }
                 h3{
@@ -95,6 +97,9 @@
                     transition: all .5s;
                     &:hover{
                         color: $mainColor;
+                    }
+                    @media (max-width: 500px) {
+                        font-size: 17px;
                     }
                 }
                 p{
@@ -115,6 +120,9 @@
                         flex: .45;
                         color: #6b6b84;
                         font-size: 15px;
+                        @media (max-width: 500px) {
+                            font-size: 10px;
+                        }
                         i{
                             margin-right: 5px;
                             color: $mainColor;

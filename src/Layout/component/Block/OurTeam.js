@@ -16,7 +16,7 @@ export default function OurTeam() {
                         <div className="team">
                             <Image src="/img/team1.jpg" className="team-1" />
                             <Image src="/img/team3.jpg" className="team-3" />
-                            <Image src="/img/team2.jpg" className="team-2" />
+                            <Image src="/img/team4.jpg" className="team-2" />
                         </div>
                     </div>
                     <div className="col-lg-6 col-12">

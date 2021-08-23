@@ -43,32 +43,19 @@
                      color: #6b6b84;
                     line-height: 1.8;
                     font-weight: 450;
-                }
-                .item-user
-                {
-                    display: flex;
-                    justify-content: space-between;
-                    .img-user
-                    {
-                        flex: .2;
-                        z-index: 10;
-                        .user{
-                            width: 100%;
-                            border-radius: 50%;
-                        }
+                    @media (max-width: 300px) {
+                        font-size: 10px;
                     }
-                    .details
-                    {
-                        flex: .8;
-                        h3{
-                            font-size: 20px;
-                            margin-bottom: 5px;
-                        }
-                        span{
-                            color: #6b6b84;
-                            font-size: 17px;
-                            font-weight: 400;
-                        }
+                }
+                h3{
+                    font-size: 20px;
+                    margin-bottom: 5px;
+                }
+                span{
+                    font-size: 15px;
+                    color: #6b6b84;
+                    @media (max-width: 300px) {
+                        font-size: 10px;
                     }
                 }
             }
