@@ -38,10 +38,16 @@
                 &:hover{
                     color: $mainColor;
                 }
+                @media (max-width: 450px) {
+                    font-size: 15px;
+                }
             }
             p{
                 font-size: 16px;
                 font-weight: 400;
+                @media (max-width: 450px) {
+                    font-size: 10px;
+                }
             }
             a
             {
@@ -58,6 +64,9 @@
                     color: $mainColor;
                     border-bottom: 1px solid $mainColor;
                 }
+                @media (max-width: 450px) {
+                    font-size: 10px;
+                }
                 i{
                     margin-left: 5px;
                     color: $secondColor;
@@ -73,6 +82,9 @@
                 }
                 i{
                     margin: 0;
+                }
+                @media (max-width: 768px) {
+                    width: 100%;
                 }
             }
         }

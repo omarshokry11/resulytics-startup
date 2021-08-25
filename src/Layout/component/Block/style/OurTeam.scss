@@ -81,6 +81,9 @@
             font-size: 44px;
             font-weight: 700;
             margin-bottom: 12px;
+            @media (max-width: 450px){
+                font-size: 20px;
+            }
         }
         p{
             color: #6b6b84;
@@ -88,6 +91,10 @@
             font-weight: 600;
             line-height: 1.8;
             margin-bottom: 20px;
+            @media (max-width: 450px){
+                font-size: 12px;
+                font-weight: normal;
+            }
         }
         @media (max-width: 768px){
             text-align: center;

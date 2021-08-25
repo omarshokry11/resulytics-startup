@@ -66,6 +66,9 @@
                     top: 0;
                     right: 0;
                     width: 200px;
+                    @media (max-width: 450px) {
+                        display: none;
+                    }
                 }
                 .icon{
                     transform: skewY(8deg);
@@ -76,6 +79,11 @@
                     border-radius: 5px;
                     @media (max-width: 700px) {
                         margin: 0 auto;
+                    }
+                    @media (max-width: 450px) {
+                        width: 70px;
+                        height: 70px;
+                        line-height: 70px;
                     }
                 }
                 .icon-1{
@@ -108,12 +116,18 @@
                         &:hover{
                             color: $mainColor;
                         }
+                        @media (max-width: 450px) {
+                            font-size: 20px;
+                        }
                     }
                     p{
                         color: #6b6b84;
                         line-height: 1.8;
                         font-size: 18px;
                         font-weight: 450;
+                        @media (max-width: 450px) {
+                            font-size: 12px;
+                        }
                     }
                 }
             }

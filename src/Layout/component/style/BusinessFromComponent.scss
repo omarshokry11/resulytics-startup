@@ -16,6 +16,9 @@
       @media (max-width: 500px) {
         font-size: 30px;
       }
+      @media (max-width: 450px) {
+        font-size: 20px;
+      }
     }
     p{
       color: #6b6b84;
@@ -27,6 +30,9 @@
       }
       @media (max-width: 500px) {
         font-size: 15px;
+      }
+      @media (max-width: 450px) {
+        font-size: 12px;
       }
     }
   }
@@ -70,15 +76,17 @@
         &:hover{
           color: $mainColor;
         }
+        @media (max-width: 450px) {
+          font-size: 10px;
+        }
       }
       p{
         color: #6b6b84;
         font-size: 17px;
         line-height: 1.8;
-      }
-      a
-      {
-
+        @media (max-width: 450px) {
+          font-size: 10px;
+        }
       }
     }
   }

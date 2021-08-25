@@ -1,8 +1,8 @@
 import React from "react";
 import {Image} from "react-bootstrap";
+import Logo from "./Logo";
 
 import "./style/OurTeam.scss";
-import Logo from "./Logo";
 
 export default function OurTeam() {
     return(

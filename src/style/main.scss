@@ -149,6 +149,9 @@
     font-size: 44px;
     font-weight: 700;
     color: $secondColor;
+    @media (max-width: 450px) {
+      font-size: 20px;
+    }
   }
   p{
     font-size: 18px;
@@ -162,6 +165,10 @@
     }
     @media (max-width: 768px) {
       width: 100%;
+      font-weight: normal;
+    }
+    @media (max-width: 450px) {
+      font-size: 10px;
     }
   }
 }
