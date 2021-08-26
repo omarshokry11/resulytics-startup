@@ -17,10 +17,18 @@
         .cover-1{
             left: -100px;
             animation: scales 400s infinite;
+            @media (max-width: 1024px) {
+                left: 0;
+                width: 40%;
+            }
         }
         .cover-2{
             right: -100px;
             animation: scales-1 400s infinite;
+            @media (max-width: 1024px) {
+                right: 0;
+                width: 40%;
+            }
         }
     }
     .blog-item
@@ -89,5 +97,8 @@
     .blog-item-3{
         width: 320px;
         margin: 0 auto;
+        @media (max-width: 500px) {
+            width: 100%;
+        }
     }
 }

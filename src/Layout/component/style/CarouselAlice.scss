@@ -5,15 +5,17 @@
     .title
     {
         h2{
-            color: #FFFFFF;
+            color: #000000;
             @media (max-width: 500px) {
                 font-size: 15px;
             }
         }
         p{
-            color: #FFFFFF;
+            color: #000000;
             @media (max-width: 500px) {
                 font-size: 10px;
+                width: 300px;
+                margin: 0 auto;
             }
 
         }

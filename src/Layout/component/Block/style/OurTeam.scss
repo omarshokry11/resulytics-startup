@@ -10,6 +10,9 @@
         left: 0;
         width: 500px;
         animation: animate 20s linear infinite;
+        @media (max-width: 1024px){
+            width: 300px;
+        }
         @media (max-width: 768px){
             display: none;
         }
@@ -20,6 +23,9 @@
         bottom: 20px;
         width: 400px;
         animation: scales 100s linear infinite;
+        @media (max-width: 1024px){
+            width: 300px;
+        }
         @media (max-width: 768px){
             display: none;
         }
@@ -30,6 +36,9 @@
         top: 100px;
         width: 350px;
         animation: scales-1 300s infinite;
+        @media (max-width: 1024px){
+            width: 300px;
+        }
         @media (max-width: 768px){
             display: none;
         }
@@ -39,6 +48,10 @@
         img{
             margin: 15px 0;
             width: 250px;
+            @media (max-width: 1024px){
+                width: 200px;
+                margin: 15px auto;
+            }
             @media (max-width: 768px){
                width: 300px;
                 margin: 15px auto;
@@ -48,7 +61,7 @@
             }
         }
         .team-2{
-            margin-left: -50px;
+            margin-left: 6px;
             @media (max-width: 768px){
                 display: block;
                 margin: 15px auto;
@@ -81,6 +94,9 @@
             font-size: 44px;
             font-weight: 700;
             margin-bottom: 12px;
+            @media (max-width: 1024px){
+                font-size: 24px;
+            }
             @media (max-width: 450px){
                 font-size: 20px;
             }

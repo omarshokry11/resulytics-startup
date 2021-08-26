@@ -11,30 +11,4 @@
       padding-bottom: 250px;
     }
   }
-  .carousel-alice-content
-  {
-    padding: 100px 0;
-    background-color: $secondColor;
-    position: relative;
-    .img-1
-    {
-      position: absolute;
-      left: 0;
-      bottom: 0;
-      width: 300px;
-      @media (max-width: 500px) {
-        display: none;
-      }
-    }
-    .img-2
-    {
-      position: absolute;
-      right: 0;
-      top: 0;
-      width: 300px;
-      @media (max-width: 500px) {
-        display: none;
-      }
-    }
-  }
 }

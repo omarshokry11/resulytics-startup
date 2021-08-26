@@ -6,6 +6,10 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 950px;
+  @media (max-width: 500px) {
+    background: none;
+    height: 570px;
+  }
   .item-text
   {
     height: 100%;
@@ -114,35 +118,25 @@
   {
     img{
       margin-top: 150px;
-      width: 930px;
+      width: 90%;
       animation: animateImage 1s;
       @media (max-width: 1024px) {
-        width: 488px;
         margin-top: 500px;
         animation: animateImage-md 1s;
       }
       @media (max-width: 768px) {
-        width: 750px;
         margin-top: 500px;
         animation: animateImage-md 1s;
       }
-        @media (max-width: 550px) {
-            width: 530px;
-        }
       @media (max-width: 500px) {
           margin-left: 25px;
-          width: 355px;
           margin-top: 500px;
           animation: animateImage-md 1s;
       }
       @media (max-width: 400px) {
-        width: 270px;
         margin-top: 500px;
         animation: animateImage-md 1s;
       }
-        @media (max-width: 300px) {
-            width: 240px;
-        }
     }
   }
 }
