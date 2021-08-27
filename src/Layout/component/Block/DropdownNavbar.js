@@ -1,10 +1,9 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 
 import "./style/DropdownNavbar.scss";
 
 export default function DropdownNavbar({ linkes }){
-
     return(
         <div className="dropdown-navbar">
             <div>
@@ -21,7 +20,7 @@ export default function DropdownNavbar({ linkes }){
                     <i className="fas fa-search"> </i>
                 </div>
                 <div className="nav-btn">
-                    <a href="/" className="link-btn">Get Started</a>
+                    <Link to="/contact" className="link-btn"><i className="fas fa-arrow-right"> </i>Get Started</Link>
                 </div>
             </div>
         </div>
