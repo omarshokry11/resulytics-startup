@@ -33,10 +33,7 @@ export default function MainNavBar(){
             {click ?  <DropdownNavbar linkes={linkes} /> : null}
             <div className="navbar-link">
                 <ul>
-                    {linkes.map((link) =>  <li key={link.id}>
-                            <NavLink to={link.pathName} activeClassName={link.activeClassName} className="link">{link.linkName}</NavLink>
-                        </li>
-                    )}
+                    {linkes.map((link) =>  <li key={link.id}><NavLink to={link.pathName} activeClassName={link.activeClassName} className="link">{link.linkName}</NavLink></li>)}
                 </ul>
             </div>
             <div className="navbar-form">

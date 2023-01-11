@@ -8,10 +8,7 @@ export default function DropdownNavbar({ linkes }){
         <div className="dropdown-navbar">
             <div>
                 <ul>
-                    {linkes.map((link) =>  <li key={link.id}>
-                            <NavLink to={link.pathName} activeClassName={link.activeClassName} className="link">{link.linkName}</NavLink>
-                        </li>
-                    )}
+                    {linkes.map((link) =>  <li key={link.id}><NavLink to={link.pathName} activeClassName={link.activeClassName} className="link">{link.linkName}</NavLink></li>)}
                 </ul>
             </div>
             <div className="nav-form">
